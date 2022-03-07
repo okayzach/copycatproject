@@ -1,0 +1,118 @@
+html{
+    margin: -8px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    margin: 0px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+
+}
+li{
+    display: inline-block;
+    color: darkgray;
+    font-family: sans-serif;
+    font-size: 15px
+
+}
+.navbar {
+    background-color: rgb(49, 49, 49);
+    position: sticky;
+    top: 0;
+    filter: opacity(90%);
+}
+
+.heading{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.heading > img, a{
+    display: inline-block;
+}
+
+.heading > a {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.unicef-logo{
+    width: 200px;
+    filter: brightness(0%)
+}
+
+main{
+    text-align: center;
+}
+
+.mainproducts{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+.mainproducts > section{
+    width: 100%;
+    padding: 80px 0;
+}
+
+.product1{
+    background-color: rgb(255, 245, 245);
+}
+
+.product2{ 
+    background-color: #442744;
+    color: white;
+}
+
+.product3{
+    background-color: rgb(218, 218, 218);
+}
+
+.mainproductimg{
+    width: 976px;
+    height: 300px;
+}
+
+.mainproducts section h2 {
+    font-size: 50px;
+}
+.mainproducts section p {
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+}
+
+.mainproducts section a {
+    position: relative;
+    bottom: 40px;
+}
+
+a{
+    color: rgb(46, 120, 189)
+}
+
+h5{
+    color: rgb(253, 47, 47);
+    position: relative;
+    top: 30px;
+}
+
+.otherproducts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.otherproducts .block{
+    width: 50%;
+}
+
+
+git branch -M main
+git push -u origin main
